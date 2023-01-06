@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --quote-bg-color: #1E4681;
+    --quote-color: #fff;
+    --format-color:#1E4681;
+    --sixth-part-bg-color:#EFEFEF;
+    --seventh-part-bg-color:#9DC9C8;
+    --footer-bg-color:#000;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 0 0 100%;
+}
+
+
+
+.colum {
+    flex-direction: column;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.a-block {
+    display: block;
+}
+
+.a-none {
+    display: none;
+}
+
+
+@media screen and (min-width:992px) {
+    .flex-md {
+        display: flex;
+    }
+
+    .justify-between-md {
+        justify-content: space-between;
+    }
+
+    .justify-start-md {
+        justify-content: flex-start;
+    }
+
+    .justify-center-md {
+        justify-content: center;
+    }
+
+
+    .align-center-md {
+        align-items: center;
+    }
+
+    .a-block-md {
+        display: block;
+    }
+
+    .row-md {
+        flex-wrap: wrap;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33%;
+    }
+
+}
